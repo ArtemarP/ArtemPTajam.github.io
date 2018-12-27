@@ -103,8 +103,7 @@
       top: 19%;
       left: 23%;
       right: 17%;
-      height: 200px;
-      weight: 350px;
+      height: 200px;      
       display: inline-flex;
 
       .logoTajamBlock {
@@ -736,8 +735,7 @@
             font-size: 14px;
             font-weight: 400;
             color: #ffffff;
-            margin-bottom: 8% 
-            min-width: 150px;
+            margin-bottom: 8%        
         }
 
     /////////
@@ -821,5 +819,128 @@
         }
       }
 }// *
-
-
+@media screen and (max-width: 1200px) {
+    .headerBlock    
+    .headerBlock__Menu {
+        right: 11%;
+    }
+    .videoBlock 
+        .videoBlock__content 
+            .videoBlockLogo 
+                .play{
+                    position: absolute;
+                    top: 46.5%;
+                    left: 50.0%;
+    }
+    .ourStoryBlock 
+        .ourStoryBlock__content {
+            width: 750px;
+    }
+    .ourStoryBlock 
+        .ourStoryBlock__content
+            .textBlock {
+                height: 270px;                
+                margin-right: 5%;
+    }
+    .ourStoryBlock
+        .sliderButton
+            .buttonLearnMoreSecond {                
+                bottom: 1%;
+    }
+    .inputBlock 
+        .goodNews 
+            .nameSubmit {
+                width: 250px;
+    }
+    .inputBlock 
+        .goodNews 
+            .messageSubmit {
+                width: 250px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .headerBlock    
+        .headerBlock__Menu {
+            right: 11%;
+    }
+    .headerBlock 
+        .slider
+            .articleStory {
+                font-size: 16px;
+    }
+    .ourStoryBlock 
+        .ourStoryBlock__content {
+            width: 700px;
+    }
+    .ourStoryBlock 
+        .ourStoryBlock__content
+            .textBlock p {                
+                font-size: 16px;              
+    }
+    .ourStoryBlock 
+        .sliderButton 
+            .buttonLearnMoreSecond {
+                left: 34%;
+    }
+    .videoBlock 
+        .videoBlock__content 
+            .videoBlockLogo 
+                .play{
+                    position: absolute;
+                    top: 46.5%;
+                    left: 50.5%;
+    }
+}
+@media screen and (max-width: 800px) {
+    .headerBlock    
+        .headerBlock__Menu
+            .menuItems {
+                display: flex;
+                flex-direction: column;
+    }
+    .headerBlock .slider {
+        left: 15%;
+        width: 70%;
+    }    
+    .headerBlock .slider .articleStory {        
+        font-size: 18px;        
+    }
+    .videoBlock 
+        .videoBlock__content 
+            .videoBlockLogo 
+                .play{
+                    position: absolute;
+                    top: 46.5%;
+                    left: 51%;
+    }
+}
+@media screen and (max-width: 650px) {
+    .videoBlock 
+        .videoBlock__content 
+            .videoBlockLogo 
+                .play{
+                    position: absolute;
+                    top: 46.5%;
+                    left: 52.5%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .videoBlock 
+        .videoBlock__content 
+            .videoBlockLogo 
+                .play{
+                    position: absolute;
+                    top: 46.5%;
+                    left: 53.5%;
+    }
+}
+@media screen and (max-width: 450px) {
+    .videoBlock 
+        .videoBlock__content 
+            .videoBlockLogo 
+                .play{
+                    position: absolute;
+                    top: 46.5%;
+                    left: 54.5%;
+    }
+}
