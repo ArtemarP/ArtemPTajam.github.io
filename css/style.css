@@ -1453,27 +1453,42 @@
     .ceoBlock .ceoBlock__photo img {
       margin: 0.5%; }
   .inputBlock {
-    height: 1000px;
-    margin-left: 5%; }
-    .inputBlock .goodNews .nameSubmit {
-      width: 300px;
-      margin-bottom: 2.5%; }
-    .inputBlock .goodNews .messageSubmit {
-      width: 300px; }
+    height: 1300px;
+    margin-left: 0%; }
+    .inputBlock .goodNews {
+      margin-left: 5%; }
+      .inputBlock .goodNews .nameSubmit {
+        width: 300px;
+        margin-bottom: 2.5%; }
+      .inputBlock .goodNews .messageSubmit {
+        width: 300px; }
     .inputBlock .goodNews h2 {
       margin-bottom: 2.5%; }
     .inputBlock .happyClient {
-      width: 375px;
-      top: 50%;
-      right: 0;
-      left: 0%; }
+      position: absolute;
+      height: auto;
+      width: 200px;
+      top: 38%;
+      left: 50%;
+      transform: translate(-50%); }
       .inputBlock .happyClient .happyClient__header {
-        margin-left: 22%;
-        margin-bottom: 7%; }
+        color: #413d4b;
+        font-family: "Playfair Display";
+        font-size: 22px;
+        font-weight: 700;
+        margin-bottom: 7%;
+        text-align: center; }
+      .inputBlock .happyClient .happyClient__brands {
+        display: flex;
+        flex-direction: column;
+        align-items: center; }
+        .inputBlock .happyClient .happyClient__brands .Billabong {
+          margin-top: -4%; }
       .inputBlock .happyClient .happyClient__brands img {
+        width: available;
+        height: 100%;
         margin-left: 0%;
-        margin-right: 5%;
-        margin-right: 5%;
+        margin-right: 10%;
         margin-bottom: 12%; }
   .footerBlock {
     height: 600px; }
