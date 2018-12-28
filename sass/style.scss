@@ -1918,9 +1918,10 @@
         }
     }
     .inputBlock {
-        height: 1000px;
-        margin-left: 5%;
+        height: 1300px;
+        margin-left: 0%;
         .goodNews{
+            margin-left: 5%;
             .nameSubmit {
                 width: 300px; 
                 margin-bottom: 2.5%;
@@ -1932,22 +1933,38 @@
         .goodNews h2 {
             margin-bottom: 2.5%;
         }
-        .happyClient {      
-            width: 375px;
-            top: 50%;
-            right: 0; 
-            left: 0%;
+        .happyClient {
+            position: absolute;
+            height: auto;
+            width: 200px;
+            top: 38%;
+            left: 50%;
+            transform: translate(-50%);
             .happyClient__header {                
-                margin-left: 22%;
+                color: #413d4b;
+                font-family: "Playfair Display";
+                font-size: 22px;
+                font-weight: 700;
                 margin-bottom: 7%;
-            }            
+                text-align: center;                
+            }
+            .happyClient__brands {
+                display: flex;
+                flex-direction: column;
+                align-items: center;             
+                
+                .Billabong {
+                    margin-top: -4%;
+                }
+            }
             .happyClient__brands img {
+                width: available;
+                height: 100%;
                 margin-left: 0%;
-                margin-right: 5%;
-                margin-right: 5%;
+                margin-right: 10%;
                 margin-bottom: 12%;
             }
-        }        
+        }     
     }
     .footerBlock {
         height: 600px;
