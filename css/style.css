@@ -1465,7 +1465,8 @@
     .inputBlock .happyClient {
       width: 375px;
       top: 50%;
-      right: 0; }
+      right: 0;
+      left: 0%; }
       .inputBlock .happyClient .happyClient__header {
         margin-left: 22%;
         margin-bottom: 7%; }
