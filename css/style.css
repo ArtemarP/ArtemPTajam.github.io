@@ -86,7 +86,7 @@
         margin-right: 6%; }
       * .ourStoryBlock .ourStoryBlock__content .textBlock {
         height: 270px;
-        width: 550px; }
+        width: auto; }
       * .ourStoryBlock .ourStoryBlock__content .textBlock h3 {
         font-family: "Playfair Display";
         font-weight: 700;
@@ -648,9 +648,6 @@
             margin-left: 10px; }
 
 @media screen and (max-width: 1200px) {
-  .headerBlock
-.headerBlock__Menu {
-    right: 11%; }
   .videoBlock
 .videoBlock__content
 .videoBlockLogo
@@ -658,96 +655,902 @@
     position: absolute;
     top: 46.5%;
     left: 50.0%; }
-  .ourStoryBlock
-.ourStoryBlock__content {
-    width: 750px; }
-  .ourStoryBlock
-.ourStoryBlock__content
-.textBlock {
-    height: 270px;
-    margin-right: 5%; }
-  .ourStoryBlock
-.sliderButton
-.buttonLearnMoreSecond {
-    bottom: 1%; }
-  .inputBlock
-.goodNews
-.nameSubmit {
-    width: 250px; }
-  .inputBlock
-.goodNews
-.messageSubmit {
-    width: 250px; } }
+  .ourStoryBlock .sliderButton .buttonLearnMoreSecond {
+    bottom: 5%;
+    left: 33%; }
+  .inputBlock {
+    height: 660px;
+    background: #ffffff;
+    margin-left: 5%;
+    margin-top: 10%;
+    position: relative; }
+    .inputBlock .goodNews h2 {
+      margin-bottom: 1.5%; }
+    .inputBlock .nameSubmit {
+      height: 45px;
+      width: 460px;
+      display: table;
+      margin-bottom: 1.5%; }
+    .inputBlock .messageSubmit {
+      height: 200px;
+      width: 460px;
+      display: table;
+      margin-bottom: 1.5%; }
+    .inputBlock .buttonSubmit {
+      height: 40px;
+      width: 120px;
+      border-color: #00e0d0;
+      border-bottom-width: 2px;
+      background: transparent;
+      color: #00e0d0;
+      font-family: 'HammersmithOne', SansSerif;
+      font-weight: 400;
+      font-size: 16px; }
+    .inputBlock .happyClient {
+      position: absolute;
+      height: 480px;
+      width: 400px;
+      top: 0;
+      right: 5%; }
+      .inputBlock .happyClient .happyClient__header {
+        color: #413d4b;
+        font-family: "Playfair Display";
+        font-size: 22px;
+        font-weight: 700;
+        margin-bottom: 7%; }
+      .inputBlock .happyClient .happyClient__brands {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around; }
+        .inputBlock .happyClient .happyClient__brands .Billabong {
+          margin-top: -4%; }
+      .inputBlock .happyClient .happyClient__brands img {
+        width: auto;
+        height: 100%;
+        margin-left: 0%;
+        margin-right: 10%;
+        margin-bottom: 12%; } }
 
 @media screen and (max-width: 1000px) {
-  .headerBlock
-.headerBlock__Menu {
-    right: 11%; }
-  .headerBlock
-.slider
-.articleStory {
-    font-size: 16px; }
-  .ourStoryBlock
-.ourStoryBlock__content {
-    width: 700px; }
-  .ourStoryBlock
-.ourStoryBlock__content
-.textBlock p {
-    font-size: 16px; }
-  .ourStoryBlock
-.sliderButton
-.buttonLearnMoreSecond {
-    left: 34%; }
-  .videoBlock
-.videoBlock__content
-.videoBlockLogo
-.play {
-    position: absolute;
-    top: 46.5%;
-    left: 50.5%; } }
+  .headerBlock__logo {
+    top: 10%;
+    left: 10%; }
+  .headerBlock__Menu {
+    top: 11.5%;
+    right: 15%; }
+    .headerBlock__Menu .menuItems {
+      display: inline-flex; }
+  .headerBlock .slider {
+    left: 5%;
+    top: 32%;
+    width: 90%;
+    height: 70%; }
+    .headerBlock .slider .articleStory {
+      font-size: 16px; }
+    .headerBlock .slider .sliderButton {
+      text-align: center;
+      margin-bottom: 10%; }
+    .headerBlock .slider .buttonLearnMore {
+      top: 70%; }
+    .headerBlock .slider .sliderDots {
+      position: absolute;
+      bottom: 10%;
+      left: 50%;
+      transform: translate(-50%); }
+  .ourStoryBlock {
+    height: 450px; }
+    .ourStoryBlock .ourStoryBlock__content {
+      top: 5%;
+      left: 5%;
+      right: 5%;
+      height: 180px; }
+      .ourStoryBlock .ourStoryBlock__content .logoTajamBlock img {
+        height: 100px;
+        width: auto; }
+      .ourStoryBlock .ourStoryBlock__content .textBlock p {
+        font-size: 16px; }
+    .ourStoryBlock .sliderButton .buttonLearnMoreSecond {
+      bottom: 5%;
+      left: 20%; }
+  .videoBlock {
+    height: 300px; }
+    .videoBlock .videoBlock__content .videoBlockLogo .circle {
+      position: absolute;
+      top: 35%;
+      left: 45%; }
+    .videoBlock .videoBlock__content .videoBlockLogo .play {
+      position: absolute;
+      top: 45.5%;
+      left: 48.5%; }
+    .videoBlock .videoBlock__content .videoBlockText {
+      top: 75%;
+      left: 42%; }
+  .expertiseBlock {
+    height: 800px; }
+    .expertiseBlock .expertiseBlockHeader {
+      top: 2%; }
+    .expertiseBlock .expertiseBlockHeader p {
+      font-size: 16px; }
+    .expertiseBlock .expertiseBlockContent {
+      top: 16%;
+      width: 90%;
+      height: 85%; }
+      .expertiseBlock .expertiseBlockContent .expertiseBlockContent__web {
+        width: 45%;
+        height: 33%;
+        margin-bottom: 3%; }
+      .expertiseBlock .expertiseBlockContent .expertiseBlockContent__branding {
+        width: 45%;
+        height: 33%;
+        margin-bottom: 3%; }
+      .expertiseBlock .expertiseBlockContent .expertiseBlockContent__mobile {
+        width: 45%;
+        height: 33%;
+        margin-bottom: 3%; }
+      .expertiseBlock .expertiseBlockContent .expertiseBlockContent__optimization {
+        width: 45%;
+        height: 33%;
+        margin-bottom: 3%; }
+      .expertiseBlock .expertiseBlockContent .expertiseBlockContent__game {
+        width: 45%;
+        height: 33%;
+        margin-bottom: 3%; }
+      .expertiseBlock .expertiseBlockContent .expertiseBlockContent__love {
+        width: 45%;
+        height: 33%;
+        margin-bottom: 3%; }
+    .expertiseBlock .expertiseBlockContent img {
+      height: 20%;
+      width: auto; }
+    .expertiseBlock .expertiseBlockContent h6 {
+      font-size: 16px;
+      margin-top: 7%; }
+    .expertiseBlock .expertiseBlockContent p {
+      font-size: 16px;
+      margin-top: 7%; }
+  .teamBlock {
+    display: flex;
+    flex-direction: column;
+    height: 1000px; }
+    .teamBlock .teamBlock__header {
+      top: 2%; }
+    .teamBlock .teamPhoto {
+      position: absolute;
+      top: 15%;
+      left: 5%;
+      transform: none;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap; }
+      .teamBlock .teamPhoto .teamPhotoFirst {
+        margin-bottom: 5px; }
+      .teamBlock .teamPhoto .dikAdalin {
+        margin-bottom: 5px; }
+      .teamBlock .teamPhoto .jengKol {
+        margin-bottom: 5px; }
+    .teamBlock .teamBlockFooter {
+      position: absolute;
+      top: 85%;
+      left: 50%;
+      transform: translate(-50%); }
+  .ourWorks {
+    height: 1000px; }
+    .ourWorks .leftHeader {
+      top: 2%;
+      left: 50%;
+      transform: translate(-50%); }
+    .ourWorks .rightHeader {
+      top: 6%;
+      right: 48%;
+      transform: translate(50%);
+      font-size: 16px; }
+    .ourWorks .examplesWork {
+      top: 10%;
+      flex-direction: row; }
+    .ourWorks .examplesWork img {
+      width: 33.3%; }
+    .ourWorks .buttonLoadMore {
+      bottom: 3%; }
+  .ceoBlock {
+    height: 600px;
+    background: url("../img/ceo_overlay.png"), url("../img/ceo_image.png");
+    background-size: 100% 100%;
+    position: relative; }
+    .ceoBlock .ceoBlock__content {
+      top: 10%; }
+    .ceoBlock .ceoBlock__content p {
+      width: 300px;
+      margin-top: 0%;
+      font-size: 18px; }
+    .ceoBlock .ceoBlock__name {
+      bottom: 28%; }
+    .ceoBlock .ceoBlock__photo {
+      bottom: 12%;
+      margin-right: 4%; }
+      .ceoBlock .ceoBlock__photo .ceoForward {
+        margin-left: 2%; }
+      .ceoBlock .ceoBlock__photo .ceoBack {
+        margin-right: 2%; }
+    .ceoBlock .ceoBlock__photo img {
+      margin: 0.5%; }
+  .inputBlock {
+    height: 1100px;
+    margin-left: 5%;
+    margin-top: 5%; }
+    .inputBlock .goodNews .nameSubmit {
+      width: 300px;
+      margin-bottom: 2.5%; }
+    .inputBlock .goodNews .messageSubmit {
+      width: 300px; }
+    .inputBlock .goodNews h2 {
+      margin-bottom: 2.5%; }
+    .inputBlock .happyClient {
+      width: 375px;
+      top: 52%;
+      right: 0;
+      left: 5%; }
+      .inputBlock .happyClient .happyClient__header {
+        margin-left: 22%;
+        margin-bottom: 7%; }
+      .inputBlock .happyClient .happyClient__brands img {
+        margin-left: 0%;
+        margin-right: 5%;
+        margin-right: 5%;
+        margin-bottom: 12%; }
+  .footerBlock {
+    height: 400px;
+    background: url("../img/footeroverlay.png"), url("../img/footer.png");
+    background-size: 100% 100%;
+    position: relative; }
+    .footerBlock .footerBlock__about {
+      width: 22%;
+      height: auto;
+      position: absolute;
+      top: 16%;
+      left: 15%; }
+      .footerBlock .footerBlock__about .tajamBlock {
+        display: inline-flex;
+        align-items: center; }
+        .footerBlock .footerBlock__about .tajamBlock .logoBlock {
+          margin-right: 5%; }
+    .footerBlock .contentBlock {
+      font-family: 'Roboto', SansSerif;
+      font-size: 14px;
+      font-weight: 400;
+      margin-top: 10%;
+      margin-bottom: 30%;
+      color: #ffffff; }
+    .footerBlock .itemsList {
+      font-family: 'Roboto', SansSerif;
+      font-size: 12px;
+      font-weight: 600;
+      color: #ffffff;
+      display: inline-flex;
+      width: 100%; }
+      .footerBlock .itemsList .terms {
+        margin-left: 7%;
+        margin-right: 7%; }
+    .footerBlock .itemsList li {
+      list-style-type: none; }
+    .footerBlock .itemsList li:hover {
+      color: #00e0d0; }
+    .footerBlock .footerBlock__studio {
+      width: 22%;
+      height: auto;
+      position: absolute;
+      top: 20%;
+      left: 39%; }
+      .footerBlock .footerBlock__studio .locationTajam {
+        display: inline-flex;
+        align-items: flex-start; }
+        .footerBlock .footerBlock__studio .locationTajam .locationLogo {
+          margin-right: 10%; }
+      .footerBlock .footerBlock__studio .ourPhone {
+        display: inline-flex;
+        align-items: flex-start; }
+        .footerBlock .footerBlock__studio .ourPhone .imagePhone {
+          margin-right: 10%; }
+    .footerBlock .footerBlock__studio h4 {
+      font-family: 'Roboto', SansSerif;
+      font-size: 15px;
+      font-weight: 700;
+      color: #ffffff;
+      margin-bottom: 19%; }
+    .footerBlock .footerBlock__studio p {
+      font-family: 'Roboto', SansSerif;
+      font-size: 14px;
+      font-weight: 400;
+      color: #ffffff;
+      margin-bottom: 8%; }
+    .footerBlock .footerBlock_stayIn {
+      width: 22%;
+      height: auto;
+      position: absolute;
+      top: 20%;
+      left: 63%; }
+      .footerBlock .footerBlock_stayIn .stayIn {
+        font-family: 'Roboto', SansSerif;
+        font-size: 15px;
+        font-weight: 700;
+        color: #ffffff;
+        margin-bottom: 16%; }
+      .footerBlock .footerBlock_stayIn .subscribeIn {
+        display: inline-flex; }
+        .footerBlock .footerBlock_stayIn .subscribeIn .nameSubmit {
+          height: 41px;
+          width: 210px;
+          margin-bottom: 1.5%;
+          display: inline-flex;
+          align-items: flex-start;
+          background-color: transparent; }
+        .footerBlock .footerBlock_stayIn .subscribeIn .nameSubmit::placeholder {
+          text-align: center; }
+        .footerBlock .footerBlock_stayIn .subscribeIn .paperButton .rectangle10 {
+          position: absolute;
+          margin-left: 3%;
+          z-index: 1; }
+        .footerBlock .footerBlock_stayIn .subscribeIn .paperButton .paper {
+          display: none; }
+      .footerBlock .footerBlock_stayIn .logoItems {
+        display: inline-flex; }
+        .footerBlock .footerBlock_stayIn .logoItems .circleImg {
+          height: 35px;
+          width: 35px;
+          background: transparent;
+          border-radius: 50%;
+          border: 1px solid white;
+          margin-top: 8%;
+          margin-right: 8px; }
+          .footerBlock .footerBlock_stayIn .logoItems .circleImg .facebook {
+            margin-top: 10px;
+            margin-left: 14px; }
+          .footerBlock .footerBlock_stayIn .logoItems .circleImg .twitter {
+            margin-top: 12px;
+            margin-left: 11px; }
+          .footerBlock .footerBlock_stayIn .logoItems .circleImg .dribbble {
+            margin-top: 10px;
+            margin-left: 10px; }
+          .footerBlock .footerBlock_stayIn .logoItems .circleImg .instagram {
+            margin-top: 11px;
+            margin-left: 10px; }
+          .footerBlock .footerBlock_stayIn .logoItems .circleImg .google {
+            margin-top: 12px;
+            margin-left: 11px; }
+          .footerBlock .footerBlock_stayIn .logoItems .circleImg .youtube {
+            margin-top: 12px;
+            margin-left: 10px; } }
 
 @media screen and (max-width: 800px) {
-  .headerBlock
-.headerBlock__Menu
-.menuItems {
-    display: flex;
-    flex-direction: column; }
+  .headerBlock__logo {
+    top: 10%;
+    left: 10%; }
+  .headerBlock__Menu {
+    top: 3%;
+    right: 5%; }
+    .headerBlock__Menu .menuItems {
+      display: flex;
+      flex-direction: column; }
   .headerBlock .slider {
-    left: 15%;
-    width: 70%; }
-  .headerBlock .slider .articleStory {
-    font-size: 18px; }
-  .videoBlock
-.videoBlock__content
-.videoBlockLogo
-.play {
-    position: absolute;
-    top: 46.5%;
-    left: 51%; } }
-
-@media screen and (max-width: 650px) {
-  .videoBlock
-.videoBlock__content
-.videoBlockLogo
-.play {
-    position: absolute;
-    top: 46.5%;
-    left: 52.5%; } }
+    left: 5%;
+    top: 32%;
+    width: 90%;
+    height: 70%; }
+    .headerBlock .slider .articleStory {
+      font-size: 16px; }
+    .headerBlock .slider .sliderButton {
+      text-align: center;
+      margin-bottom: 10%; }
+    .headerBlock .slider .buttonLearnMore {
+      top: 70%; }
+    .headerBlock .slider .sliderDots {
+      position: absolute;
+      bottom: 10%;
+      left: 50%;
+      transform: translate(-50%); }
+  .ourStoryBlock {
+    height: 450px; }
+    .ourStoryBlock .ourStoryBlock__content {
+      top: 5%;
+      left: 5%;
+      right: 5%;
+      height: 180px; }
+      .ourStoryBlock .ourStoryBlock__content .logoTajamBlock img {
+        height: 100px;
+        width: auto; }
+      .ourStoryBlock .ourStoryBlock__content .textBlock p {
+        font-size: 16px; }
+    .ourStoryBlock .sliderButton .buttonLearnMoreSecond {
+      bottom: 5%;
+      left: 20%; }
+  .videoBlock {
+    height: 300px; }
+    .videoBlock .videoBlock__content .videoBlockLogo .circle {
+      position: absolute;
+      top: 35%;
+      left: 45%; }
+    .videoBlock .videoBlock__content .videoBlockLogo .play {
+      position: absolute;
+      top: 45.5%;
+      left: 49.5%; }
+    .videoBlock .videoBlock__content .videoBlockText {
+      top: 75%;
+      left: 42%; }
+  .expertiseBlock {
+    height: 800px; }
+    .expertiseBlock .expertiseBlockHeader {
+      top: 2%; }
+    .expertiseBlock .expertiseBlockHeader p {
+      font-size: 16px; }
+    .expertiseBlock .expertiseBlockContent {
+      top: 16%;
+      width: 90%;
+      height: 85%; }
+      .expertiseBlock .expertiseBlockContent .expertiseBlockContent__web {
+        width: 45%;
+        height: 33%;
+        margin-bottom: 3%; }
+      .expertiseBlock .expertiseBlockContent .expertiseBlockContent__branding {
+        width: 45%;
+        height: 33%;
+        margin-bottom: 3%; }
+      .expertiseBlock .expertiseBlockContent .expertiseBlockContent__mobile {
+        width: 45%;
+        height: 33%;
+        margin-bottom: 3%; }
+      .expertiseBlock .expertiseBlockContent .expertiseBlockContent__optimization {
+        width: 45%;
+        height: 33%;
+        margin-bottom: 3%; }
+      .expertiseBlock .expertiseBlockContent .expertiseBlockContent__game {
+        width: 45%;
+        height: 33%;
+        margin-bottom: 3%; }
+      .expertiseBlock .expertiseBlockContent .expertiseBlockContent__love {
+        width: 45%;
+        height: 33%;
+        margin-bottom: 3%; }
+    .expertiseBlock .expertiseBlockContent img {
+      height: 20%;
+      width: auto; }
+    .expertiseBlock .expertiseBlockContent h6 {
+      font-size: 16px;
+      margin-top: 7%; }
+    .expertiseBlock .expertiseBlockContent p {
+      font-size: 16px;
+      margin-top: 7%; }
+  .teamBlock {
+    display: flex;
+    flex-direction: column;
+    height: 1000px; }
+    .teamBlock .teamBlock__header {
+      top: 2%; }
+    .teamBlock .teamPhoto {
+      position: absolute;
+      top: 15%;
+      left: 5%;
+      transform: none;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap; }
+      .teamBlock .teamPhoto .teamPhotoFirst {
+        margin-bottom: 5px; }
+      .teamBlock .teamPhoto .dikAdalin {
+        margin-bottom: 5px; }
+      .teamBlock .teamPhoto .jengKol {
+        margin-bottom: 5px; }
+    .teamBlock .teamBlockFooter {
+      position: absolute;
+      top: 85%;
+      left: 50%;
+      transform: translate(-50%); }
+  .ourWorks {
+    height: 1000px; }
+    .ourWorks .leftHeader {
+      top: 2%;
+      left: 50%;
+      transform: translate(-50%); }
+    .ourWorks .rightHeader {
+      top: 6%;
+      right: 48%;
+      transform: translate(50%);
+      font-size: 16px; }
+    .ourWorks .examplesWork {
+      top: 10%;
+      flex-direction: row; }
+    .ourWorks .examplesWork img {
+      width: 33.3%; }
+    .ourWorks .buttonLoadMore {
+      bottom: 3%; }
+  .ceoBlock {
+    height: 600px;
+    background: url("../img/ceo_overlay.png"), url("../img/ceo_image.png");
+    background-size: 100% 100%;
+    position: relative; }
+    .ceoBlock .ceoBlock__content {
+      top: 10%; }
+    .ceoBlock .ceoBlock__content p {
+      width: 300px;
+      margin-top: 0%;
+      font-size: 18px; }
+    .ceoBlock .ceoBlock__name {
+      bottom: 28%; }
+    .ceoBlock .ceoBlock__photo {
+      bottom: 12%;
+      margin-right: 4%; }
+      .ceoBlock .ceoBlock__photo .ceoForward {
+        margin-left: 2%; }
+      .ceoBlock .ceoBlock__photo .ceoBack {
+        margin-right: 2%; }
+    .ceoBlock .ceoBlock__photo img {
+      margin: 0.5%; }
+  .inputBlock {
+    height: 1000px;
+    margin-left: 5%;
+    margin-top: 5%; }
+    .inputBlock .goodNews .nameSubmit {
+      width: 300px;
+      margin-bottom: 2.5%; }
+    .inputBlock .goodNews .messageSubmit {
+      width: 300px; }
+    .inputBlock .goodNews h2 {
+      margin-bottom: 2.5%; }
+    .inputBlock .happyClient {
+      width: 375px;
+      top: 52%;
+      right: 0;
+      left: 5%; }
+      .inputBlock .happyClient .happyClient__header {
+        margin-left: 22%;
+        margin-bottom: 7%; }
+      .inputBlock .happyClient .happyClient__brands img {
+        margin-left: 0%;
+        margin-right: 5%;
+        margin-right: 5%;
+        margin-bottom: 12%; }
+  .footerBlock {
+    height: 600px; }
+    .footerBlock .footerBlock__about {
+      width: 60%;
+      top: 5%;
+      left: 5%; }
+      .footerBlock .footerBlock__about .tajamBlock {
+        display: inline-flex;
+        align-items: center; }
+        .footerBlock .footerBlock__about .tajamBlock .logoBlock {
+          margin-right: 5%; }
+    .footerBlock .contentBlock {
+      font-size: 16px;
+      margin-bottom: 5%;
+      margin-top: 5%; }
+    .footerBlock .itemsList {
+      font-family: 'Roboto', SansSerif;
+      font-size: 12px;
+      font-weight: 600;
+      color: #ffffff;
+      display: inline-flex;
+      width: 100%; }
+      .footerBlock .itemsList .terms {
+        margin-left: 7%;
+        margin-right: 7%; }
+    .footerBlock .itemsList li {
+      list-style-type: none; }
+    .footerBlock .itemsList li:hover {
+      color: #00e0d0; }
+    .footerBlock .footerBlock__studio {
+      width: 60%;
+      height: auto;
+      position: absolute;
+      top: 43%;
+      left: 5%; }
+      .footerBlock .footerBlock__studio .locationTajam {
+        display: inline-flex;
+        align-items: flex-start; }
+        .footerBlock .footerBlock__studio .locationTajam .locationLogo {
+          margin-right: 10%; }
+      .footerBlock .footerBlock__studio .ourPhone {
+        display: inline-flex;
+        align-items: flex-start; }
+        .footerBlock .footerBlock__studio .ourPhone .imagePhone {
+          margin-right: 10%; }
+    .footerBlock .footerBlock__studio h4 {
+      font-family: 'Roboto', SansSerif;
+      font-size: 15px;
+      font-weight: 700;
+      color: #ffffff;
+      margin-bottom: 3%; }
+    .footerBlock .footerBlock__studio p {
+      font-family: 'Roboto', SansSerif;
+      font-size: 14px;
+      font-weight: 400;
+      color: #ffffff;
+      margin-bottom: 5%; }
+    .footerBlock .footerBlock_stayIn {
+      width: 60%;
+      height: auto;
+      position: absolute;
+      top: 73%;
+      left: 5%; }
+      .footerBlock .footerBlock_stayIn .stayIn {
+        font-family: 'Roboto', SansSerif;
+        font-size: 15px;
+        font-weight: 700;
+        color: #ffffff;
+        margin-bottom: 3%; }
+      .footerBlock .footerBlock_stayIn .subscribeIn {
+        display: inline-flex; }
+        .footerBlock .footerBlock_stayIn .subscribeIn .nameSubmit {
+          height: 41px;
+          width: 210px;
+          margin-bottom: 1.5%;
+          display: inline-flex;
+          align-items: flex-start;
+          background-color: transparent; }
+        .footerBlock .footerBlock_stayIn .subscribeIn .paperButton .paper {
+          right: 40%;
+          top: 3%; } }
 
 @media screen and (max-width: 500px) {
-  .videoBlock
-.videoBlock__content
-.videoBlockLogo
-.play {
-    position: absolute;
-    top: 46.5%;
-    left: 53.5%; } }
-
-@media screen and (max-width: 450px) {
-  .videoBlock
-.videoBlock__content
-.videoBlockLogo
-.play {
-    position: absolute;
-    top: 46.5%;
-    left: 54.5%; } }
+  .headerBlock__logo {
+    top: 3%;
+    left: 5%; }
+  .headerBlock__Menu {
+    top: 3%;
+    right: 5%; }
+    .headerBlock__Menu .menuItems {
+      display: flex;
+      flex-direction: column; }
+  .headerBlock .slider {
+    left: 5%;
+    top: 25%;
+    width: 90%;
+    height: 70%; }
+    .headerBlock .slider .articleStory {
+      font-size: 16px; }
+    .headerBlock .slider .sliderButton {
+      text-align: center;
+      margin-bottom: 10%; }
+    .headerBlock .slider .buttonLearnMore {
+      top: 70%; }
+    .headerBlock .slider .sliderDots {
+      position: absolute;
+      bottom: 10%;
+      left: 50%;
+      transform: translate(-50%); }
+  .ourStoryBlock {
+    height: 550px; }
+    .ourStoryBlock .ourStoryBlock__content {
+      top: 5%;
+      left: 5%;
+      right: 5%;
+      height: 180px; }
+      .ourStoryBlock .ourStoryBlock__content .logoTajamBlock img {
+        height: 100px;
+        width: auto; }
+      .ourStoryBlock .ourStoryBlock__content .textBlock p {
+        font-size: 16px; }
+    .ourStoryBlock .sliderButton .buttonLearnMoreSecond {
+      bottom: 5%;
+      left: 20%; }
+  .videoBlock {
+    height: 300px; }
+    .videoBlock .videoBlock__content .videoBlockLogo .circle {
+      position: absolute;
+      top: 35%;
+      left: 40%; }
+    .videoBlock .videoBlock__content .videoBlockLogo .play {
+      position: absolute;
+      top: 45.5%;
+      left: 49.5%; }
+    .videoBlock .videoBlock__content .videoBlockText {
+      top: 75%;
+      left: 35%; }
+  .expertiseBlock {
+    height: 1000px; }
+    .expertiseBlock .expertiseBlockHeader {
+      top: 2%; }
+    .expertiseBlock .expertiseBlockHeader p {
+      font-size: 16px; }
+    .expertiseBlock .expertiseBlockContent {
+      top: 16%;
+      width: 90%;
+      height: 85%; }
+      .expertiseBlock .expertiseBlockContent .expertiseBlockContent__web {
+        width: 45%;
+        height: 33%;
+        margin-bottom: 3%; }
+      .expertiseBlock .expertiseBlockContent .expertiseBlockContent__branding {
+        width: 45%;
+        height: 33%;
+        margin-bottom: 3%; }
+      .expertiseBlock .expertiseBlockContent .expertiseBlockContent__mobile {
+        width: 45%;
+        height: 33%;
+        margin-bottom: 3%; }
+      .expertiseBlock .expertiseBlockContent .expertiseBlockContent__optimization {
+        width: 45%;
+        height: 33%;
+        margin-bottom: 3%; }
+      .expertiseBlock .expertiseBlockContent .expertiseBlockContent__game {
+        width: 45%;
+        height: 33%;
+        margin-bottom: 3%; }
+      .expertiseBlock .expertiseBlockContent .expertiseBlockContent__love {
+        width: 45%;
+        height: 33%;
+        margin-bottom: 3%; }
+    .expertiseBlock .expertiseBlockContent img {
+      height: 10%;
+      width: auto; }
+    .expertiseBlock .expertiseBlockContent h6 {
+      font-size: 16px; }
+    .expertiseBlock .expertiseBlockContent p {
+      font-size: 16px; }
+  .teamBlock {
+    display: flex;
+    flex-direction: column;
+    height: 1600px; }
+    .teamBlock .teamBlock__header {
+      top: 2%; }
+    .teamBlock .teamPhoto {
+      position: absolute;
+      top: 10%;
+      left: 50%;
+      transform: translate(-50%);
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap; }
+      .teamBlock .teamPhoto .teamPhotoFirst {
+        margin-bottom: 5px; }
+      .teamBlock .teamPhoto .dikAdalin {
+        margin-bottom: 5px; }
+      .teamBlock .teamPhoto .jengKol {
+        margin-bottom: 5px; }
+    .teamBlock .teamBlockFooter {
+      position: absolute;
+      top: 90%;
+      left: 50%;
+      transform: translate(-50%); }
+  .ourWorks {
+    height: 1000px; }
+    .ourWorks .leftHeader {
+      top: 2%;
+      left: 50%;
+      transform: translate(-50%); }
+    .ourWorks .rightHeader {
+      top: 6%;
+      right: 48%;
+      transform: translate(50%);
+      font-size: 16px; }
+    .ourWorks .examplesWork {
+      top: 10%;
+      flex-direction: row; }
+    .ourWorks .examplesWork img {
+      width: 33.3%; }
+    .ourWorks .buttonLoadMore {
+      bottom: 3%; }
+  .ceoBlock {
+    height: 600px;
+    background: url("../img/ceo_overlay.png"), url("../img/ceo_image.png");
+    background-size: 100% 100%;
+    position: relative; }
+    .ceoBlock .ceoBlock__content {
+      top: 10%; }
+    .ceoBlock .ceoBlock__content p {
+      width: 300px;
+      margin-top: 0%;
+      font-size: 18px; }
+    .ceoBlock .ceoBlock__name {
+      bottom: 28%; }
+    .ceoBlock .ceoBlock__photo {
+      bottom: 12%;
+      margin-right: 4%; }
+      .ceoBlock .ceoBlock__photo .ceoForward {
+        margin-left: 2%; }
+      .ceoBlock .ceoBlock__photo .ceoBack {
+        margin-right: 2%; }
+    .ceoBlock .ceoBlock__photo img {
+      margin: 0.5%; }
+  .inputBlock {
+    height: 1000px;
+    margin-left: 5%; }
+    .inputBlock .goodNews .nameSubmit {
+      width: 300px;
+      margin-bottom: 2.5%; }
+    .inputBlock .goodNews .messageSubmit {
+      width: 300px; }
+    .inputBlock .goodNews h2 {
+      margin-bottom: 2.5%; }
+    .inputBlock .happyClient {
+      width: 375px;
+      top: 50%;
+      right: 0; }
+      .inputBlock .happyClient .happyClient__header {
+        margin-left: 22%;
+        margin-bottom: 7%; }
+      .inputBlock .happyClient .happyClient__brands img {
+        margin-left: 0%;
+        margin-right: 5%;
+        margin-right: 5%;
+        margin-bottom: 12%; }
+  .footerBlock {
+    height: 600px; }
+    .footerBlock .footerBlock__about {
+      width: 90%;
+      top: 5%;
+      left: 5%; }
+      .footerBlock .footerBlock__about .tajamBlock {
+        display: inline-flex;
+        align-items: center; }
+        .footerBlock .footerBlock__about .tajamBlock .logoBlock {
+          margin-right: 5%; }
+    .footerBlock .contentBlock {
+      font-size: 16px;
+      margin-bottom: 5%;
+      margin-top: 5%; }
+    .footerBlock .itemsList {
+      font-family: 'Roboto', SansSerif;
+      font-size: 12px;
+      font-weight: 600;
+      color: #ffffff;
+      display: inline-flex;
+      width: 100%; }
+      .footerBlock .itemsList .terms {
+        margin-left: 7%;
+        margin-right: 7%; }
+    .footerBlock .itemsList li {
+      list-style-type: none; }
+    .footerBlock .itemsList li:hover {
+      color: #00e0d0; }
+    .footerBlock .footerBlock__studio {
+      width: 90%;
+      height: auto;
+      position: absolute;
+      top: 43%;
+      left: 5%; }
+      .footerBlock .footerBlock__studio .locationTajam {
+        display: inline-flex;
+        align-items: flex-start; }
+        .footerBlock .footerBlock__studio .locationTajam .locationLogo {
+          margin-right: 10%; }
+      .footerBlock .footerBlock__studio .ourPhone {
+        display: inline-flex;
+        align-items: flex-start; }
+        .footerBlock .footerBlock__studio .ourPhone .imagePhone {
+          margin-right: 10%; }
+    .footerBlock .footerBlock__studio h4 {
+      font-family: 'Roboto', SansSerif;
+      font-size: 15px;
+      font-weight: 700;
+      color: #ffffff;
+      margin-bottom: 5%; }
+    .footerBlock .footerBlock__studio p {
+      font-family: 'Roboto', SansSerif;
+      font-size: 14px;
+      font-weight: 400;
+      color: #ffffff;
+      margin-bottom: 8%; }
+    .footerBlock .footerBlock_stayIn {
+      width: 90%;
+      height: auto;
+      position: absolute;
+      top: 73%;
+      left: 5%; }
+      .footerBlock .footerBlock_stayIn .stayIn {
+        font-family: 'Roboto', SansSerif;
+        font-size: 15px;
+        font-weight: 700;
+        color: #ffffff;
+        margin-bottom: 7%; }
+      .footerBlock .footerBlock_stayIn .subscribeIn {
+        display: inline-flex; }
+        .footerBlock .footerBlock_stayIn .subscribeIn .nameSubmit {
+          height: 41px;
+          width: 210px;
+          margin-bottom: 1.5%;
+          display: inline-flex;
+          align-items: flex-start;
+          background-color: transparent; }
+        .footerBlock .footerBlock_stayIn .subscribeIn .paperButton .paper {
+          right: 20%;
+          top: 35%; } }
