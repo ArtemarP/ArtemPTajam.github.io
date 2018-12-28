@@ -1443,6 +1443,7 @@
     .ceoBlock .ceoBlock__name {
       bottom: 28%; }
     .ceoBlock .ceoBlock__photo {
+      width: 350px;
       bottom: 12%;
       margin-right: 4%; }
       .ceoBlock .ceoBlock__photo .ceoForward {
